@@ -60,10 +60,10 @@ twilio flex:plugins:release --plugin flex-link-preview@1.0.0 --description "Rele
 ```
 **Explanation**
 
---changelog adds a message explaining the changes in the plugin.
---major flags this as a major release.
---plugin flex-link-preview@1.0.0 specifies the plugin and its version.
---description provides a description of the plugin for the release.
+- Changelog adds a message explaining the changes in the plugin.
+- Major flags this as a major release.
+- Plugin flex-link-preview@1.0.0 specifies the plugin and its version.
+- Description provides a description of the plugin for the release.
 
 After successful deployment, the plugin should now be visible in your Twilio Flex instance.
 

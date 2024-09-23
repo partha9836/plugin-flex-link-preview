@@ -2,6 +2,10 @@
 
 This Twilio Flex Plugin enhances the chat functionality by generating rich link previews for URLs shared in conversations. It leverages the [LinkPreview API](https://www.linkpreview.net/) to fetch metadata, such as the title, description, and images of links shared by users, providing a more engaging and informative chat experience.
 
+![demo_link_preview-flex](https://github.com/user-attachments/assets/34cdf540-ed7c-46bc-8276-9d268c91c895)
+
+
+
 ## Features
 
 - Automatically generates link previews for URLs shared in Twilio Flex web chat.

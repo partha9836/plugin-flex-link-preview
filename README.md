@@ -27,8 +27,8 @@ Clone this repository:
 
 ```bash
 
-git clone https://github.com/your-username/flex-link-preview.git
-cd flex-link-preview
+git clone https://github.com/partha9836/plugin-flex-link-preview.git
+cd plugin-flex-link-preview
 ```
 
 ## Install the required dependencies:

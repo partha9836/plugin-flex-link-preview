@@ -55,9 +55,15 @@ Build and deploy the plugin to your Twilio Flex instance:
 ```bash
 
 npm run build
-twilio flex:plugins:deploy --changelog "Initial deployment of Link Preview Plugin"
-twilio flex:plugins:release --plugin flex-link-preview@X.X.X --description "Releasing the Link Preview Plugin"
+twilio flex:plugins:deploy --changelog "Initial deployment of Link Preview Plugin" --major --description "This version introduces the Link Preview feature for chat"
+twilio flex:plugins:release --plugin flex-link-preview@1.0.0 --description "Releasing the initial version of the Link Preview Plugin"
 ```
+**Explanation**
+
+--changelog adds a message explaining the changes in the plugin.
+--major flags this as a major release.
+--plugin flex-link-preview@1.0.0 specifies the plugin and its version.
+--description provides a description of the plugin for the release.
 
 After successful deployment, the plugin should now be visible in your Twilio Flex instance.
 

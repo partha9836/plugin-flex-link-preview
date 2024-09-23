@@ -1,6 +1,6 @@
 # Flex Link Preview Plugin
 
-This Twilio Flex Plugin enhances the chat functionality by generating rich link previews for URLs shared in conversations. It leverages the [LinkPreview API](https://www.linkpreview.net/) to fetch metadata, such as the title, description, and images of links shared by users, providing a more engaging and informative chat experience.
+This [Twilio Flex](https://www.twilio.com/en-us/flex?utm_source=google&utm_medium=cpc&utm_term=twilio%20flex&utm_campaign=G_S_NAMER_Brand_Twilio_Tier1&cq_plac=&cq_net=g&cq_pos=&cq_med=&cq_plt=gp&gad_source=1&gclid=Cj0KCQjwo8S3BhDeARIsAFRmkONv16sKzCCaQtFsD_SNxizYWWiR_MBVdRwyha1jBwYPY94t8UpvFXoaAmJnEALw_wcB) Plugin enhances the chat functionality by generating rich link previews for URLs shared in conversations. It leverages the [LinkPreview API](https://www.linkpreview.net/) to fetch metadata, such as the title, description, and images of links shared by users, providing a more engaging and informative chat experience.
 
 ![demo_link_preview-flex](https://github.com/user-attachments/assets/34cdf540-ed7c-46bc-8276-9d268c91c895)
 
@@ -18,6 +18,7 @@ This Twilio Flex Plugin enhances the chat functionality by generating rich link 
 - Twilio Flex account
 - [Node.js](https://nodejs.org/en) (version 18.x or higher)
 - A LinkPreview API key ([Sign up](https://my.linkpreview.net/) for an API key here)
+- Flex Plugins CLI
 
 ## Installation
 
@@ -91,7 +92,7 @@ Here is an example CSS snippet that customizes the appearance of link previews:
   margin-top: 8px;
   display: flex;
   flex-direction: column; /* Stack elements vertically */
-  background-color: #cce4ff; /* Set background color
+  background-color: #cce4ff; /* Set background color */
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
   max-width: 350px; /* Fixed width for the preview box */
   overflow: hidden; /* Prevent overflow */

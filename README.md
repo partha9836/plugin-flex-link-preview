@@ -159,7 +159,7 @@ Run the plugin locally:
 twilio flex:plugins:start
 ```
 
-Make your changes to the plugin files (e.g., modifying CustomMessage.js or CustomMessage.css).
+Make your changes to the plugin files (e.g., modifying **CustomMessage.js** or **CustomMessage.css**).
 
 After testing, commit and push your changes to GitHub:
 

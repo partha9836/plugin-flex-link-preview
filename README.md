@@ -79,40 +79,58 @@ The link preview layout is customizable via the CSS file (CustomMessage.css). Yo
 Here is an example CSS snippet that customizes the appearance of link previews:
 
 ```css
+/* src/components/CustomMessage.css */
 .link-preview {
-  border: 1px solid rgba(227, 227, 227, 0.5);
-  border-radius: 5px;
+  border: 1px solid rgba(227, 227, 227, 0.5); /* Light border with transparency */
+  border-radius: 5px; /* Rounded corners */
   padding: 15px;
   margin-top: 8px;
   display: flex;
-  flex-direction: column;
-  background-color: transparent;
-  max-width: 350px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  flex-direction: column; /* Stack elements vertically */
+  background-color: #cce4ff; /* Set background color
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  max-width: 350px; /* Fixed width for the preview box */
+  overflow: hidden; /* Prevent overflow */
 }
 
 .preview-image {
-  max-width: 100%;
-  max-height: 150px;
+  max-width: 100%; /* Ensure image fits within the box */
+  max-height: 150px; /* Set maximum height for the image */
+  width: auto; /* Maintain aspect ratio */
+  height: auto; /* Maintain aspect ratio */
   object-fit: cover;
-  border-radius: 5px;
+  border-radius: 5px; /* Rounded corners for the image */
+  margin-bottom: 10px; /* Space below the image */
+  padding-top: 10px; /* Add padding above the image */
 }
 
-.preview-content h4 {
-  font-size: 18px;
-  font-weight: bold;
-  color: black;
+.preview-content {
+  display: flex;
+  flex-direction: column; /* Stack title, description, and link vertically */
 }
 
-.preview-content p {
-  font-size: 14px;
-  color: black;
-  font-weight: bold;
+/* Override default styles with increased specificity */
+.custom-message .link-preview h4 {
+  font-size: 16px; /* Decrease font size for the title */
+  font-weight: bold; /* Bold title for emphasis */
+  color: black; /* Set title color to white */
+  margin: 10px 0 5px 0; /* Margin for spacing below title */
+}
+
+.custom-message .link-preview p {
+  font-size: 14px; /* Desired font size for the description */
+  color: black; /* Set description text color to white */
+  margin: 0 0 10px 0; /* Margin for spacing below description */
 }
 
 .preview-content a {
-  color: blue;
+  color: blue; /* Set link color to blue */
   text-decoration: none;
+  margin-top: 5px; /* Space above the link */
+}
+
+.preview-content a:hover {
+  text-decoration: underline; /* Underline on hover */
 }
 ```
 

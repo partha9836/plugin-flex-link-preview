@@ -7,7 +7,7 @@
   margin-top: 8px;
   display: flex;
   flex-direction: column; /* Stack elements vertically */
-  background-color: #cce4ff; /* Set background color
+  background-color: #cce4ff; /* Set background color */
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
   max-width: 350px; /* Fixed width for the preview box */
   overflow: hidden; /* Prevent overflow */
